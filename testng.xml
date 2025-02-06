@@ -7,10 +7,10 @@
             <class name="Setup"/>
         </classes>
     </test>
-    <test name="Training Test">
+    <test name="Website Test">
         <classes>
-            <class name="HomePageTest"/>
-            <class name="SpecialistsTest"/>
+            <class name="loginpage"/>
+            <class name="Inventorypage"/>
         </classes>
     </test> <!-- Test -->
     <test name="tear down" >

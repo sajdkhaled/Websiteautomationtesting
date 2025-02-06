@@ -27,9 +27,9 @@ public class Setup {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
         driver=  WebDriverManager.chromedriver().capabilities(options).create();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-        wait = new WebDriverWait(driver, Duration.ofSeconds(3));
-        driver.get("https://famcare.app/");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        driver.get("https://www.saucedemo.com/");
         jse = (JavascriptExecutor) driver;
     }
 
